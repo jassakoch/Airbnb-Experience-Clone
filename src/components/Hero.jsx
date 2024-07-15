@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
     return (
-       <div>
+       <div className="hero">
    <div className="photo-grid">
     <div className="photo" id="photo1"> <img src="/concert.jpg" alt="concert" /></div>
     <div className="photo" id="photo2"> <img src="/fishing.jpg" alt="fishing" /></div>
@@ -12,8 +12,12 @@ export default function Hero() {
     <div className="photo" id="photo6"> <img src="/yoga.jpg" alt="yoga" /></div>
     <div className="photo" id="photo7"> <img src="/yougurt.jpg" alt="yogurt" /></div>
 
+ 
    </div>
-       
+       <div className="hero-text">
+   <h1>Online Experiences</h1>
+   <p>Join unique interactive activities led by one-of-a-kind hosts-all without leaving home.</p>
+   </div>
         </div>
     );
 }

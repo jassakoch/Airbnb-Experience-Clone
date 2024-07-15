@@ -6,6 +6,13 @@ body {
   margin: 0;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
 nav {
   height: 70px;
   display: flex;
@@ -17,13 +24,26 @@ nav {
   max-width: 100px;
 }
 
+.hero, .experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 20px 0 20px;
+
+}
+
+.hero {
+  height: 50vh;
+}
+
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  margin-top: 30px;
+  margin: 30px 50px 50px 30px;
   padding: 20px;
   }
 
