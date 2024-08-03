@@ -132,3 +132,8 @@ transform: scale(0.65);
     left: 10px;
   }
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
