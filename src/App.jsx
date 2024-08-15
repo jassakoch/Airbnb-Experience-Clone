@@ -9,11 +9,19 @@ import './index.css';
 export default function App() {
   return (
     <div className="app">
-  <Nav/>
-  <Hero/>
-  <Card/>
+      <Nav />
+      <Hero />
+      <Card
 
-  </div>
+        img="/swimmer.jpg"
+        rating="5.0"
+        reviewCount={6}
+        country="Poland"
+        title="Life Lessons with Katie Zaferes"
+        price={136}
+      />
+
+    </div>
   )
 }
 
